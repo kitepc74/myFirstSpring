@@ -1,4 +1,4 @@
-package com.kitepc.myuse;
+package com.kitepc.myuse.controller;
 
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
