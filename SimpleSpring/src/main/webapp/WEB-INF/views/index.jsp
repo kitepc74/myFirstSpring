@@ -6,7 +6,6 @@
 <c:set var="pageFooter" value="/WEB-INF/views/template/footer.jsp"/>
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
 
     <meta charset="utf-8">

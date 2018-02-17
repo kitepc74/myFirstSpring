@@ -21,6 +21,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/myuse/contact">Contact</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/myuse/login">Login</a>
+                    </li>
                 </ul>
             </div>
         </div>
