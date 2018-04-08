@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("/myuse")
 public class MyBlogController {
 
 	private final static Logger logger = Logger.getLogger(MyBlogController.class);

@@ -7,15 +7,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("/myuse")
 public class LoginController {
 	private final static Logger logger = Logger.getLogger(LoginController.class);
-	
+
 	@RequestMapping(value = "/login", method = RequestMethod.GET, name = "loginCTRL Controller Method")
 	public String login(Model model) {
-		
-		logger.info("loginCTRL");
-		
+		logger.debug("loginCTRL enter");
+
 		return "login";
 	}
 }
