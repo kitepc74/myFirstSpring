@@ -12,12 +12,20 @@
   <link rel="stylesheet" href="<c:out value="${myContextPath}"/>/resources/assets/css/bootstrap.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="<c:out value="${myContextPath}"/>/resources/assets/css/loginStyle.css">
+  <style>
+    .right-position {
+        margin-left:auto;
+        margin-right: 0;
+    }
+  </style>
 </head>
 
 <body>
    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/myuse/myblog">Back</a>
+            <div class="col-md-12 right-position">
+                <button type="button" class="btn btn-primary float-right">Back</button>
+            </div>
         </div>
    </nav>
   <div class="form">
